@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f3f3f3;
+}
+
+.clear{
+    clear: both;
+}
+
+.header{
+    background-color: #3b5998;
+    height: 85px;
+    width: 100%;
+
+}
+
+.container{
+    width: 72%;
+    margin: 0 auto;
+}
+
+.container .label{
+    width:45%;
+    float: left; 
+    color: #fff;
+}
+
+.container .login{
+    width: 45%;
+    float: right;
+    color: #fff;
+}
+.login a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+.container .label h1{
+    font-size:44px;
+    padding-left: 5px;
+}
+
+.container .login .email {
+    float: left;
+    width: 42%;
+    padding-top: 15px;
+    
+}
+
+input[type='text'],input[type='password']{
+    margin-top:5px;
+}
+
+
+.container .login .pass{
+    float: left;
+    padding-top: 15px;
+}
+
+input[type='submit']{
+    margin-top: 38px;
+    margin-left: 4px;
+    background-color: #1f1fa7;
+    border: none;
+    color:#fff;
+    padding: 3px 7px;
+    font-weight: bold;
+}
+
+input[type='submit']:hover{
+    background-color: #4444d4;
+}
+
+.content{
+    float: left;
+    width: 50%;
+    color: #063865;
+}
+
+.content footer{
+    size: 300px;
+}
+
+.content h3{
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.signup{
+    float: right;
+    width: 50%;
+    padding-left: 70px;
+    box-sizing: border-box;
+}
+
+.signup h1 , .signup h3{
+    color: #000;
+    margin: 5px;
+}
+
+.signup input:nth-child(3){
+    width: 48%;
+    margin-right: 4px;
+    height: 35px;
+    float: left;
+}
+
+.signup input:nth-child(4){
+    width: 47%;
+    height: 35px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 0;
+}
+
+.signup input:nth-child(5), .signup input:nth-child(6){
+width: 100%;
+margin-top: 8px;
+height: 35px;
+}
+
+.signup input{
+    border-radius:5px;
+    border: 1px solid #999;
+    padding-left: 3px;
+    font-size: 18px;    
+}
+
+::-webkit-input-placeholder{
+    color: #aaa;
+}
+
+.signup .link{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+select{
+    height:30px;
+    margin-right: 9px;
+    border: 1px solid #999;
+    margin-bottom: 12px;
+}
+
+.signup p{
+    color: #333;
+    font-size: 14px;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #1c6f05;
+    margin-bottom: 20px;
+    color: #fff;
+    margin-top: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #34ad13;
+}
+
+.create {
+    font-size: 16px;
+    text-decoration-color: #8888ff;
+    text-decoration: none;
+}
+
+.signup span{
+    color: #555;
+}
+
+Terms{
+    text-decoration: none;
+}
